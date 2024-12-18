@@ -1,0 +1,5 @@
+res://scenes/main/main.tscn
+res://scenes/main/main.gd
+res://scenes/main/server/server.gd
+res://scenes/main/client/client.gd
+res://scenes/singletons/global.gd

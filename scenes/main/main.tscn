@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://dovum6t7w6f4l"]
+
+[ext_resource type="Script" path="res://scenes/main/main.gd" id="1_jl3im"]
+[ext_resource type="PackedScene" uid="uid://daot8l4i0itp1" path="res://scenes/main/client/client.tscn" id="2_wu3j6"]
+[ext_resource type="PackedScene" uid="uid://c8p0uagp1om8x" path="res://scenes/main/server/server.tscn" id="3_cborw"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_jl3im")
+override_type = 1
+client_scene = ExtResource("2_wu3j6")
+server_scene = ExtResource("3_cborw")
